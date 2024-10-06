@@ -14,8 +14,11 @@ import SecurityScaleSection from "@/components/sections/SecurityScaleSection";
 export default function Home() {
   return (
     <main className="font-sans">
-      <AlertSection />
-      <NavBar />
+      <div className="flex flex-col-reverse md:flex-col">
+        <AlertSection />
+        <NavBar />
+      </div>
+
       <HeroSection />
       <MarqueSection />
       <CRMSection />
