@@ -18,13 +18,14 @@ export default function Home() {
         <AlertSection />
         <NavBar />
       </div>
-
-      <HeroSection />
-      <MarqueSection />
-      <CRMSection />
-      <DataModellingSection />
-      <MultiPlayerDesignSection />
-      <SecurityScaleSection />
+      <div className="mt-8 md:mt-20 flex flex-col gap-12 md:gap-[150px] px-4 md:px-[100px]">
+        <HeroSection />
+        <MarqueSection />
+        <CRMSection />
+        <DataModellingSection />
+        <MultiPlayerDesignSection />
+        <SecurityScaleSection />
+      </div>
       <MoreFeaturesSection />
       <LovedByBuildersSection />
       <ReadyToBuildSection />
