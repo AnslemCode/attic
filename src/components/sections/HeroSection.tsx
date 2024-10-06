@@ -16,8 +16,10 @@ const HeroSection = () => {
           exact CRM your business needs.
         </p>
         <div className="flex gap-[12px] justify-center">
-          <Button>Start for free</Button>
-          <Button variant={"outline"}>Talk to sales</Button>
+          <Button className="rounded-[12px]">Start for free</Button>
+          <Button variant={"outline"} className="rounded-[12px]">
+            Talk to sales
+          </Button>
         </div>
 
         <div className="flex w-full justify-center">

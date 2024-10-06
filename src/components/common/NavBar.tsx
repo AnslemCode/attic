@@ -64,8 +64,10 @@ const NavBar = () => {
           </div>
 
           <div className="flex items-center gap-[20px] select-none">
-            <Button variant={"outline"}>Sign in</Button>
-            <Button>Start for free</Button>
+            <Button variant={"outline"} className="rounded-[12px]">
+              Sign in
+            </Button>
+            <Button className="rounded-[12px]">Start for free</Button>
           </div>
         </div>
       </div>

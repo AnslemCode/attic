@@ -13,10 +13,10 @@ const SecurityScaleSection = () => {
           standards.
         </p>
         <div className="flex gap-[12px] justify-start">
-          <Button size={"lg"} variant={"default"}>
+          <Button size={"lg"} variant={"default"} className="rounded-[12px]">
             Start for free
           </Button>
-          <Button size={"lg"} variant={"outline"}>
+          <Button size={"lg"} variant={"outline"} className="rounded-[12px]">
             Talk to sales
           </Button>
         </div>
